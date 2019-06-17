@@ -1,7 +1,8 @@
 # SampleUITestFramework.Net
 
 ## What is this?
-Simple test framework implemented in C#
+Simple test framework implemented in C#.
+
 Technologies:
 - C#
 - Selenium Webdriver
