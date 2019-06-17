@@ -67,8 +67,8 @@ namespace BBCTests.Insfrastructure
 
         private static IWebDriver ConfigreDriver(IWebDriver driver)
         {
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
-            driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(20);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(40);
+            driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(60);
             return driver;
         }
     }

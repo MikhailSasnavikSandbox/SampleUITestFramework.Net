@@ -74,7 +74,7 @@ namespace BBCTests.Tests.SignUpTests
                 .Submit();
 
             //Wait some domain redirections to be completed
-            new WebDriverWait(WebDriver, TimeSpan.FromSeconds(5))
+            new WebDriverWait(WebDriver, TimeSpan.FromSeconds(10))
                 .Until(ExpectedConditions.UrlContains("bbc.com"));
 
             //Assert Uri and page Title
@@ -93,7 +93,7 @@ namespace BBCTests.Tests.SignUpTests
             var mainPage = accountTypeRegistrationPage.ClickExitSignUp();
 
             //Wait some domain redirections to be completed
-            new WebDriverWait(WebDriver, TimeSpan.FromSeconds(5))
+            new WebDriverWait(WebDriver, TimeSpan.FromSeconds(10))
                 .Until(ExpectedConditions.UrlContains("bbc.com"));
 
             //Assert Uri and page Title
